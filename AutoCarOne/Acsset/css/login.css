@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    height: 100vh;
+}
+
+.box-login {
+    width: 620px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    color: #222222;
+    border-bottom: 3px solid blue;
+    padding: 26px 0;
+}
+
+.box-input {
+    width: 515px;
+    margin: 0 auto;
+
+}
+
+.input-name {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 14px;
+    border: 1px solid #E1E1E1;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.btn-login {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.submit-login {
+    background-color: #4DB848;
+    border-radius: 4px;
+    border: 0;
+    height: 40px;
+    cursor: pointer;
+    padding: 10px 0;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: none;
+    width: 170px;
+    margin-top: 24px;
+}
+
+.title-botom {
+    text-align: center;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-gg {
+    background-color: #DE4D3B;
+}
+
+.btn-facebook {
+    background-color: #3B5999;
+}
+
+.btn-link {
+    justify-content: space-evenly;
+}
+
+.link-forget {
+    text-decoration: none;
+    font-size: 14px;
+    color: #135EAC;
+    margin-top: 20px;
+}
+
+/* đăng ký */
+.wraper-register {
+    height: 800px;
+}
+
+.link {
+    margin-top: 20px;
+}

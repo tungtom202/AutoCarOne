@@ -1,0 +1,201 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open sans',sans-serif;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.15;
+}
+
+
+
+.img-QC {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.b-column {
+    width: 67.1111%;
+    margin-left: -17px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0px 0 24px;
+    color: #222;
+}
+
+.text-p1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.heading1 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    color: #222;
+}
+
+.heading2 {
+    font-size: 16px;
+    color: #2980B9;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.heading3 {
+    font-size: 21px;
+    font-weight: 600;
+    color: #222;
+}
+
+ul.text-ul li {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 15px;
+    line-height: 30px;
+    padding-left: 5px;
+}
+
+a.text-a {
+    color: #551A8B;
+}
+
+div.c-column {
+    width: 374.93px;
+    margin-left: 20px;
+}
+
+div.column-c-as {
+    border: 1px solid #777;
+    border-radius: 4px;
+}
+
+.heading-c {
+    background: #135EAC;
+    border-radius: 4px 4px 0 0;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFF;
+}
+
+ul.list-new-c li {
+    list-style-type: none;
+    margin-top: 5px;
+}
+ul.list-new-c{
+    padding: 0
+}
+.text-img {
+    width: 318.33px;
+    height: 178.25px;
+}
+
+.box-content-c {
+    background: #FFF;
+    border-radius: 0 0 4px 4px;
+}
+
+li.big-new {
+    border-bottom: 1px solid #E1E1E1;
+    width: 319px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+
+li.big {
+    margin: auto;
+    width: 319px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.text-h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #222;
+    margin-top: 5px;
+}
+
+.link {
+    text-decoration: none !important;
+}
+.link:hover {
+    text-decoration: none;
+    font-size: 150%;
+}
+
+
+/********/
+
+
+
+.imagePreview {
+    width: 80px;
+    height: 90px;
+    background-position: center center;
+    background: url(http://cliquecities.com/assets/no-image-e3699ae23f866f6cbdf8ba2443ee5c4e.jpg);
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    box-shadow: 0px -3px 6px 2px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+    display: block;
+    border-radius: 0px;
+    box-shadow: 0px 4px 6px 2px rgba(0,0,0,0.2);
+    margin-top: -5px;
+}
+
+.imgUp {
+    margin-bottom: 15px;
+    position: relative !important;
+
+}
+
+.del {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(255,255,255,0.6);
+    cursor: pointer;
+}
+
+.imgAdd {
+    width: 30px !important;
+    height: 30px;
+    border-radius: 50%;
+    color:#000;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2);
+    text-align: center;
+    line-height: 30px;
+    margin-top: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    position: absolute;
+    
+}
